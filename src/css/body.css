@@ -1,0 +1,70 @@
+.head{
+    width:55%;
+    background: rgba(255, 255, 255, 0.1)
+}
+.heading-main{
+    font-family: brandon_grotesquebold sans-serif;
+    
+    font-size:4rem;
+    color:#283249;
+    font-weight: 700;
+}
+.heading-small{
+    width:80%;
+    font-size:1.5rem;
+    color:rgba(48,61,83,0.7);
+}
+.bt{
+    margin-top:5%;
+}
+.bt button{
+    color:white;
+    margin-right:3%;
+}
+.btn-info{
+    background-color: #01daba;
+}
+/* banner dog image */
+
+.banner{
+    position:absolute;
+    z-index:1;
+    right:8%;
+    top:15%;
+}
+.mt-10{
+    margin-top: 9%;
+}
+.mt-15{
+    margin-top: 20%;
+}
+
+.slides{
+    width:85vw;
+    margin-top:25vh;
+    margin-bottom:10vh;
+}
+.slide-left{
+    width:40%;
+    padding:5vw;
+}
+.slide-right{
+    width:60%
+}
+
+.blue{
+    font-family: brandon_grotesquemedium;
+    color:#283249;
+    font-size:3rem;
+    font-weight: 600;
+}
+.green{
+    font-family: brandon_grotesquemedium;
+    color: #01daba;
+    font-size:3rem;
+    font-weight: 600;
+}
+.container{
+    padding-left: -5px;
+    padding-right:-5px;
+}

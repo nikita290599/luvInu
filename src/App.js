@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 import './App.css';
+import $ from "jquery";
+
+
 
 function App() {
+  $("#ban").mouseover(function(){
+    $(".phone1").animate({transform: 'translateY(100px) rotate(1rad) scaleX(2) skewY(42deg)'});
+   
+  });
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar/>
+     <Body/>
     </div>
+    
   );
 }
 

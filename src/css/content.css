@@ -1,0 +1,102 @@
+
+.blue{
+    color:#283249;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.green{
+    color: #01daba;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.norm{
+    font-family: 'proxima_novaregular';
+    font-weight: normal;
+    color: rgba(48,61,83,0.7);
+    font-size: 18px;
+    margin-top:10px;;
+
+}
+.fonty{
+  font-family: loveloline_light;
+  font-size:4rem;
+  color:#d8d8d8;
+}
+.content-image{
+    width:100%;
+}
+
+.banner-two{
+    margin-left:-14vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;;
+    width:100vw;
+    height:88vh;
+    
+    /* light:rgb(162,239,143)
+    dark :rgb(162,239,143) */
+    background:url("../images/bg2.png"),linear-gradient( 39deg, rgb(173,244,142) 0%, rgb(0,206,175) 100%);
+}
+
+.b-left{
+    position:relative;
+  width:60%;
+}
+.b-right{
+   
+    font-family: 'proxima_novaregular';
+    padding-top:10vw;
+    padding-right:5vw;
+  width:40%;
+  color:white;
+  font-weight: 500;
+}
+.phone1,.phone2{
+    position:absolute;
+    width:30vw;
+    height:110vh;
+}
+.phone1{
+    top:-10vw;
+}
+.phone2{
+    width:31vw;
+    
+    top:5vh;
+    left:25vw;
+   
+}
+
+
+/* left right content borders */
+#a{
+    border-left:1px dotted lightgrey;
+    border-bottom:1px dotted lightgrey;
+    border-radius:20px;
+}
+#b{
+    border-right:1px dotted lightgrey;
+    
+    border-radius:20px;
+}
+#c{
+    border-top:1px dotted lightgrey;
+    border-left:1px dotted lightgrey;
+    border-bottom:1px dotted lightgrey;
+    border-radius:20px;
+
+}
+#d{
+    border-right:1px dotted lightgrey;
+    
+    border-radius:20px;
+
+}
+#e{
+    border-top:1px dotted lightgrey;
+    border-left:1px dotted lightgrey;
+    border-radius:20px;
+}
+.content-cards{
+ padding-left:50px;
+}

@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+    font-family: 'brandon_grotesquebold';
+    src: url('./fonts/brandon_bld-webfont.woff2') format('woff2'),
+         url('./fonts/brandon_bld-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('./fonts/brandon_med-webfont.woff2') format('woff2'),
+         url('./fonts/brandon_med-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'loveloline_light';
+    src: url('./fonts/lovelo_line_light-webfont.woff2') format('woff2'),
+         url('./fonts/lovelo_line_light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('./fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('./fonts/proximanova-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('./fonts/brandon_reg-webfont.woff2') format('woff2'),
+         url('./fonts/brandon_reg-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

@@ -1,0 +1,32 @@
+.nav-item{
+    font-family:brandon_grotesquemedium ;
+    color:#9293BE;
+    font-size: 1.3rem;
+    font-weight:400;
+    margin-left: 2%;
+    float:right;
+    
+}
+.nav-item button{
+    font-size: 1.1rem;
+    color:#9293BE;
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid #9293BE;
+}
+.nav-item button span{
+    color:#1DA1F2;
+    margin-left:1rem;
+}
+.bt-twitter{
+ padding-left:15px;
+ padding-right:15px;
+}
+.tw{
+font-size:3vh;
+}
+.bt-twitter:hover{
+    border:1px solid white;
+    background-color: #01daba;
+    color:white;
+   }
