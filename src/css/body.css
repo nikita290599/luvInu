@@ -68,3 +68,13 @@
     padding-left: -5px;
     padding-right:-5px;
 }
+.iconic{
+    top: 500px;
+    left: 10px;;
+    width:100px;
+    position :absolute;
+   
+    animation: jump 2.5s ease-in-out alternate infinite;
+    margin-left: 30px;
+    margin-top: 5px;
+}

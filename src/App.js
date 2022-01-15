@@ -6,10 +6,10 @@ import $ from "jquery";
 
 
 function App() {
-  $("#ban").mouseover(function(){
-    $(".phone1").animate({transform: 'translateY(100px) rotate(1rad) scaleX(2) skewY(42deg)'});
-   
-  });
+ 
+  $(".phone1").focus(function () {
+    $(this).animate({left: "0px"}, 1000);
+}); 
   return (
     
     <div className="App">

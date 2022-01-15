@@ -14,10 +14,12 @@ import II from "../images/10.png"
 import III from "../images/45.png"
 import IV from "../images/15 2.png"
 import V from "../images/15 3.png"
+import i from "../images/Coin.svg"
 const Body = () => {
     return (
         <div className="container mt-10">
             <div className='head'>
+            <div ><img className='iconic'  style={{width: '80px', opacity: '0.5', filter: 'invert(88%) sepia(30%) saturate(450%) hue-rotate(335deg) brightness(104%) contrast(104%)'}} alt="bhakk" src={i}></img></div>
                 <h1 className='heading-main'>Compassion based Decentralized Meme Token</h1>
                 <div className='heading-small'>
                     With as much love, respect, and compassion

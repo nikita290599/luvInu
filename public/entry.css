@@ -1,0 +1,10 @@
+.iconic{
+    top: 500px;
+    left: 10px;;
+    width:100px;
+    position :absolute;
+    z-index:-5;
+    animation: jump 2.5s ease-in-out alternate infinite;
+    margin-left: 30px;
+    margin-top: 5px;
+}
