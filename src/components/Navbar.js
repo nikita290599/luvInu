@@ -5,7 +5,6 @@ import "../css/Navbar.css"
 
 const Navbar = () => {
  
-
     return (
         <nav id="navbar_top" className="container-fluid navbar navbar-expand-lg navbar-light bg-light pt-5 d-flex">
             
@@ -29,7 +28,7 @@ const Navbar = () => {
                         <a className="nav-link  " style={{width:"15rem"}} href="https://pancakeswap.finance/info/token/0x792495530619b5433f0b136283fb90e6643dfb39" target="_blank" rel="noreferrer">Buy on Pancake Swap<img className='ml-1' width="25rem" src={pancake} alt="pancake logo"></img></a>
                     </li>
                     <li className="nav-item mr-0">
-                        <button className='btn bt-twitter'>CONNECT <span class="fab fa-twitter tw"></span></button>
+                        <button className='btn bt-twitter'>CONNECT <span  class="fab fa-twitter tw"></span></button>
                     </li>
                 </ul>
                 
